@@ -57,10 +57,14 @@ No olvides verificar en qué directorio se encuentra el archivo Dockerfile
 ```
 
 **¿Cuántos pasos se han ejecutado?**
-# RESPONDER 
+
+Se completaron 10 pasos en total, según la salida Building (10/10) FINISHED. De ellos, 5 corresponden a las etapas de construcción numeradas del [1/5] al [5/5]; los demás son tareas internas de Docker y la exportación de la imagen mi-apache:1.0
+# 
 
 ### Inspeccionar la imagen creada
-# COMPLETAR CON UNA CAPTURA
+
+<img width="752" height="962" alt="Inspeccion_Imagen" src="https://github.com/user-attachments/assets/bf820583-faba-498c-9629-5f47eb454adf" />
+# 
 
 **Modificar el archivo index.html para incluir su nombre y luego crear una nueva versión de la imagen anterior**
 **¿Cuántos pasos se han ejecutado? ¿Observa algo diferente en la creación de la imagen**
