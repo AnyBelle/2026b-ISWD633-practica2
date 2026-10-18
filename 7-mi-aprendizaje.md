@@ -6,3 +6,6 @@ También aprendí a interpretar las instrucciones de un Dockerfile, como FROM, R
 ### Problemas y ajustes documentados
 Durante la práctica, se presentó un error al ejecutar yum update, debido a que los repositorios originales de CentOS 7 ya no estaban disponibles. Para lo cual, modifiqué el Dockerfile para utilizar los repositorios archivados de CentOS Vault y agregué -y a los comandos de actualización e instalación para aceptar las confirmaciones automáticamente. Después de estos ajustes, la imagen se construyó correctamente.
 Además, aclaré que la carpeta web y el archivo index.html debían existir en mi computador antes de construir la imagen, porque la instrucción COPY utiliza esos archivos como origen. Esto me ayudó a comprender la diferencia entre los archivos locales y el contenido que Docker incorpora dentro de la imagen.
+
+
+Estos conocimientos aportan a mi formación profesional porque me permiten construir entornos de ejecución reproducibles, controlar el consumo de recursos y comprender las opciones disponibles para supervisar el funcionamiento de las aplicaciones.
