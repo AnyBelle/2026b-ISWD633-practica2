@@ -64,6 +64,7 @@ Se completaron 10 pasos en total, según la salida Building (10/10) FINISHED. De
 ### Inspeccionar la imagen creada
 
 <img width="752" height="962" alt="Inspeccion_Imagen" src="https://github.com/user-attachments/assets/bf820583-faba-498c-9629-5f47eb454adf" />
+
 # 
 
 **Modificar el archivo index.html para incluir su nombre y luego crear una nueva versión de la imagen anterior**
@@ -83,10 +84,14 @@ Docker usa un mecanismo de caché cuando crea imágenes para acelerar el proceso
 ```
 
 ### ¿Con que puerto host se está realizando el mapeo?
-# COMPLETAR CON LA RESPUESTA
+
+El puerto 80 del contenedor se está mapeando al puerto 32768 del host, asignado automáticamente por Docker. Esto se consultó mediante la ejecución del comando: docker port apache-practica
+#
 
 **¿Qué es una imagen huérfana?**
-# COMPLETAR CON LA RESPUESTA
+
+Una imagen huérfana es una imagen de Docker que no tiene una etiqueta asociada y no está referenciada por otras imágenes. Suele aparecer al reconstruir una imagen usando la misma etiqueta, se identifica como <none>:<none> y ocupa espacio en disco.
+# 
 
 ### Identificar imágenes huérfanas
 ```
