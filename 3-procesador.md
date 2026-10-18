@@ -10,6 +10,7 @@ Asignar núcleos de CPU específicos:
 ```
 
 **¿Como saber el numero de procesadores virtuales que tiene una máquina?**
+
 Para saber cuántos procesadores virtuales tiene disponibles una máquina Linux, se puede ejecutar el comando **nproc**, que muestra la cantidad de CPU lógicas disponibles.
 #
 
